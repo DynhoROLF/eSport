@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { MagnifyingGlass } from 'phosphor-react'
 
 import './styles/main.css'
@@ -76,5 +77,28 @@ export function App() {
         </div>
       </div>
     </div>
+=======
+
+interface ButtonProps {
+  title: string;
+}
+
+function Button(props: ButtonProps) {
+  return (
+    <button>
+      {props.title}
+    </button>
+  )
+}
+
+
+export function App() {
+  return (
+    <>
+      <Button title="cebola"/>
+      <Button title="roxa"/>
+      <h1>Hello World</h1>
+    </>
+>>>>>>> 0732ee8e479ec0e6631341464b76418f5e27eb94
   ) 
 }
